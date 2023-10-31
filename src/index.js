@@ -11,12 +11,12 @@ ReactDOM.render(
     <h1 className="heading" >Hi ,I am  {name} .</h1>
     {/* In html contenteditable but in jsx camelCase contentEditable. */}
 
-    <div className="img_div">  
+    <div className="img_div">
       <a href="https://adarshwebdeveloperhrushikesh.netlify.app" target="_blanc">
-      <img src={img1} alt="RandomImage" />
-    </a>
-    <img src={img2} alt="RandomIMg2" />
-    <img src={img3} alt="RandomImg3" />
+        <img src={img1} alt="RandomImage" />
+      </a>
+      <img src={img2} alt="RandomIMg2" />
+      <img src={img3} alt="RandomImg3" />
     </div>
 
 
