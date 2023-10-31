@@ -1,18 +1,18 @@
-import React from 'react'
-import  ReactDOM from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
 
-const fname="Hrushikesh"
-const lname="T"
-const d=new Date().toLocaleDateString();
-const t=new Date().toLocaleTimeString();
+const img1 = "https://picsum.photos/200/300";
+const img2 = "https://picsum.photos/200/300";
+const img3 = "https://picsum.photos/200/300";
 ReactDOM.render(
   <>
-    <h1>{`Hello this is ${fname} ${lname}`}</h1>
-    <p>{`Today's date is ${d}`}</p>
-    <p>{`Current Time is ${t}`}</p>
-    
-  </>,
-  document.getElementById("root")
+    <h1 contentEditable="true">Hi Demo</h1>
+    {/* In html contenteditable but in jsx camelCase contentEditable. */}
 
+    <a href="https://adarshwebdeveloperhrushikesh.netlify.app" target="_blanc">
+      <img src={img1} alt="RandomImage" />
+      {/* img is self closing tag so use <img />  */}
+    </a>
 
-)
+  </>
+  , document.getElementById("root"))
