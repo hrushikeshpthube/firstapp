@@ -1,25 +1,29 @@
-import React from "react";
+import React from  "react";
 import ReactDOM from "react-dom";
-import "./index.css"
 
-const name = "Hrushikesh";
-const img1 = "https://picsum.photos/200/300";
-const img2 = "https://picsum.photos/250/300";
-const img3 = "https://picsum.photos/300/300";
+const d1=new Date().toLocaleDateString();
+const d=new Date().getHours();
+let greeting="";
+const s={color:""}
+
+if (d>=1 && d<12)
+{
+s.color="green";
+greeting="Good Morning";
+}
+else if(d>=12 && d<18)
+{
+  s.color="Orange";
+  greeting="Good Afternoon";
+}
+else
+{
+  s.color="Black"
+  greeting="Good Night"
+}
 ReactDOM.render(
-  <>
-    <h1 className="heading" >Hi ,I am  {name} .</h1>
-    {/* In html contenteditable but in jsx camelCase contentEditable. */}
-
-    <div className="img_div">
-      <a href="https://adarshwebdeveloperhrushikesh.netlify.app" target="_blanc">
-        <img src={img1} alt="RandomImage" />
-      </a>
-      <img src={img2} alt="RandomIMg2" />
-      <img src={img3} alt="RandomImg3" />
-    </div>
-
-
-
-  </>
-  , document.getElementById("root"))
+<>
+  <h1> Hello Hrushikesh,<span style={s}>{`${greeting}`} </span></h1>
+  
+</>
+,document.getElementById("root"))
