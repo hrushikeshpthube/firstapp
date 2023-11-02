@@ -1,18 +1,18 @@
 import React from "react";
 import Card from "./Cards";
+import Sdata from "./Sdata";
 
 
 function App() {
   return (
     <>
       <h1>List of best Netflix Series </h1>
-      <Card img_src="https://wallpapercave.com/wp/wp4056410.jpg" img_alt="Dark IMG" title="Dark"
-        link="https://www.netflix.com/in/title/80100172"></Card>
-      <Card img_src="https://th.bing.com/th/id/OIP.iKrKTKjz7OMDtHFVN8m3AAHaKX?pid=ImgDet&rs=1" img_alt="Narcos IMG" title="Narcos"
-        link="https://www.netflix.com/in/title/80025172"></Card>
-      <Card img_src="https://th.bing.com/th/id/OIP.igOb01McTK2EDytFMSPB9gHaLH?pid=ImgDet&w=1100&h=1650&rs=1" img_alt="Peaky Blinders IMG" title="Peaky Blinders"
-        link="https://www.netflix.com/in/title/80002479"></Card>
-
+      <Card img_src={Sdata[0].img_scr} img_alt={Sdata[0].img_alt} title={Sdata[0].title}
+        link={Sdata[0].link}></Card>
+      <Card img_src={Sdata[1].img_scr} img_alt={Sdata[1].img_alt} title={Sdata[1].title}
+        link={Sdata[1].link}></Card>
+      <Card img_src={Sdata[2].img_scr} img_alt={Sdata[2].img_alt} title={Sdata[2].title}
+        link={Sdata[2].link}></Card>
 
     </>
   );
