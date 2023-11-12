@@ -68,7 +68,7 @@ import Sdata from "./Sdata";
 
 function App() {
   // const  state= useState();
- // console.log(state);
+  // console.log(state);
 
   const NetSdata = Sdata.filter((Val) => Val.category === "Netflix");
   const Amazedata = Sdata.filter((Val) => Val.category === "Amazon");
@@ -80,8 +80,10 @@ function App() {
       <h1 className="Heading">List of best  Series </h1>
 
       <div className="button-container">
+        <button id="all" onClick={() => setDisplayData(Sdata)}>All</button>
         <button id="net" onClick={() => setDisplayData(NetSdata)}> Netflix</button> <br /><br />
         <button id="amaze" onClick={() => setDisplayData(Amazedata)}>Amazon</button>
+
       </div>
 
 

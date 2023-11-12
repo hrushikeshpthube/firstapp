@@ -35,7 +35,26 @@ const Sdata = [
         link: "https://www.primevideo.com/detail/Panchayat/0KEP4A6DWRKFYQFTSU5RXHEAN2",
         category: "Amazon"
 
+    },
+    {
+        id: 5,
+        img_scr: "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/0393aff2ef3474c5a32f418bcbe6d67a04975157242451aeb0622b94be07f243._RI_V_TTW_.jpg",
+        img_alt: "The-Lord-of-the-Rings-The-Rings-of-Power IMG",
+        title: "The-Lord-of-the-Rings-The-Rings-of-Power",
+        link: "https://www.primevideo.com/detail/The-Lord-of-the-Rings-The-Rings-of-Power/0TUVXIO58IUNEPNBF8363Z7YGL",
+        category: "Amazon"
+
+    },
+    {
+        id: 6,
+        img_scr: "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/9124aa6949c441409cb4023ab5f14b6a770434fd7b22039e66f2872aa4db6b4c._RI_V_TTW_.jpg",
+        img_alt: "Vikings IMG",
+        title: "Vikings",
+        link: "https://www.primevideo.com/detail/Vikings/0GQHYUD5X61HG223KLW5PE8D3E",
+        category: "Amazon"
+
     }
+
 ];
 
 export default Sdata;
