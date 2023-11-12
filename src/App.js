@@ -17,52 +17,52 @@ import Sdata from "./Sdata";
 
 
 
-function Netfun(NetSdata) {
+// function Netfun(NetSdata) {
 
-  return (
-    <>
+//   return (
+//     <>
 
-      {NetSdata.map((Val) => {
+//       {NetSdata.map((Val) => {
 
-       // console.log(Val);
-        return (
-          <>
-
-
-            <Card key={Val.id} img_src={Val.img_scr} img_alt={Val.img_alt} category={Val.category} title={Val.title}
-              link={Val.link} ></Card>
-
-          </>
-        )
-      })
-
-      }
-    </>
-
-  )
-}//Netfun
+//        // console.log(Val);
+//         return (
+//           <>
 
 
-function Amazefun(Amazedata) {
-  return (
+//             <Card key={Val.id} img_src={Val.img_scr} img_alt={Val.img_alt} category={Val.category} title={Val.title}
+//               link={Val.link} ></Card>
 
-    <>
-      {
-        Amazedata.map((Val) => {
-          console.log(Val)
-          return (
-            <>
-              <Card key={Val.id} img_scr={Val.img_scr} img_alt={Val.img_alt} category={Val.category} title={Val.title}
-                link={Val.link}></Card>
-            </>
-          )
-        }
-        )
-      }
+//           </>
+//         )
+//       })
 
-    </>
-  )
-}
+//       }
+//     </>
+
+//   )
+// }//Netfun
+
+
+// function Amazefun(Amazedata) {
+//   return (
+
+//     <>
+//       {
+//         Amazedata.map((Val) => {
+//           console.log(Val)
+//           return (
+//             <>
+//               <Card key={Val.id} img_scr={Val.img_scr} img_alt={Val.img_alt} category={Val.category} title={Val.title}
+//                 link={Val.link}></Card>
+//             </>
+//           )
+//         }
+//         )
+//       }
+
+//     </>
+//   )
+// }
 
 
 
