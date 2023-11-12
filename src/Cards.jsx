@@ -11,12 +11,12 @@ function Card(Props) {
 
 
                     <img style={{
-                        width: "50%",
-                        height: "50%"
+                        width: "200px",
+                        height: "300px"
                     }} className="card_img" src={Props.img_src} alt={Props.img_alt} />
                     <div className="card_info">
 
-                        <span className="card_category">A Netflix Original Series</span>
+                        <span className="card_category">{Props.category}</span>
                         <h3 className="card_title">{Props.title}</h3>
                         <a href={Props.link} target="_blank">
                             <button >Watch Now</button>
