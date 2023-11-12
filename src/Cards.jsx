@@ -18,7 +18,7 @@ function Card(Props) {
 
                         <span className="card_category">{Props.category}</span>
                         <h3 className="card_title">{Props.title}</h3>
-                        <a href={Props.link} target="_blank">
+                        <a href={Props.link} >
                             <button >Watch Now</button>
 
                         </a>
